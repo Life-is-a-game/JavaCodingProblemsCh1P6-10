@@ -19,7 +19,7 @@ public class StringPermutationGenerator {
 	
 	private static Set<String> permuteAndStore(String prefix, String str){
 		
-		Set<String> permutations = new HashSet<>();
+		Set<String> permutations = new HashSet<>(); //HashSets ensure that no duplicate values are added.
 		int n = str.length();
 		
 		if(n == 0) {
